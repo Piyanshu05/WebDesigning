@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+</head>
+<body>
+	<form>
+	<h1 align="center">Student Registration</h1>
+	<fieldset>
+		<legend align="center">Personal Information</legend>
+		<table align="center">
+			<tr>
+				<td>Name*</td>
+				<td><input type="text" name="name" placeholder="Enter Your Name"></td>
+				<td>Password*</td>
+				<td><input type="Password" name="pass" placeholder="Enter Your Name"></td></td>
+			</tr>
+			<tr>
+				<td>Email*</td>
+				<td colspan="3"><input type="text" name="email" placeholder="Enter your Email" size="100"></td>
+			</tr>
+			<tr>
+				<td>Mobile Number</td>
+				<td><input type="Number" name="num" placeholder="Enter Your Mobile Number"></td>
+				<td>Date of Birth</td>
+				<td><input type="Date" name="date"></td>
+
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="Male" value="Male">Male<br>
+					<input type="radio" name="Female" value="Female">Female</td>
+					<td>Hobbies<br></td>
+					<td><input type="checkbox" name="Read">Reading<br>
+					<input type="checkbox" name="Sing">Singing<br>
+				<input type="checkbox" name="cric">Cricker<br>
+			<input type="checkbox" name="swim">Swimming</td>
+			</tr>
+			<tr>
+				<td>CGPA</td>
+				<td><input type="range" min="00" max="10.00">10.00<button>OR</button><input type="text" name="CGPA" size="5"></td>
+			</tr>
+			<tr>
+				<td>Insert Resume</td>
+				<td><input type="file" name="resume" placeholder="Choose File"></td>
+			</tr>
+			<tr>
+				<td>LinkedIn URL</td>
+				<td colspan="3"><input type="text" placeholder="Please enter URL" size="100"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align="right"><input type="Submit" value="Submit"></td>
+				<td align="left"><input type="Reset" value="Reset"></td>
+				<td></td>
+			</tr>
+		</table>
+	</fieldset>
+	Comments<br>
+	<textarea placeholder="Please enter some suggestions." rows="4" cols="200"></textarea>
+	</form>
+</body>
+</html>

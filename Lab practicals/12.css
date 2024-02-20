@@ -1,0 +1,27 @@
+a:link
+{
+	color: black;
+}
+a:visited
+{
+	color: red;
+}
+p:first-line
+{
+	color: black;
+	background-color: blue;
+}
+p:first-letter
+{
+	color: blue;
+	background-color: black;
+}
+p::selection
+{
+	color: yellow;
+	background-color: pink;
+}
+p:hover
+{
+	background-color: green;
+}

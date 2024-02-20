@@ -1,0 +1,64 @@
+body
+{
+	height: 55vh;
+	width: 100%;
+}
+.Page
+{
+	background-color: cyan;
+	height: 100%;
+	padding: 1%;
+}
+.Header
+{
+	background-color: purple;
+	color: white;
+	height: 10%;
+}
+.Content
+{
+	background-color: orange;
+	color: black;
+	height: 70%;
+	padding: 1%;
+
+}
+.Entry
+{
+	background-color: black;
+	color: white;
+	height: 30%;
+	margin: 1%;
+	width: 100%;
+
+}
+.Sidebar
+{
+	background-color: black;
+	color: white;
+	height: 50%;
+	margin: 1%;
+	width: 30%;
+	float: right;
+}
+.darshanuni
+{
+	background-color: blue;
+	color: white;
+	height: 5%;
+}
+.ABC{
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+@media (max-width:450px)
+{
+	.Sidebar
+	{
+		width: 100%;
+	}
+	.ABC{
+		width: 100%;
+	}
+}

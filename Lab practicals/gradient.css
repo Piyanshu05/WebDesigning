@@ -1,0 +1,10 @@
+body{
+	height: 90vh;
+	width: 190vh;
+}
+.grad
+{
+	background-image:linear-gradient(to top,red,blue);
+	height: 100%;
+	width: 100%;
+}

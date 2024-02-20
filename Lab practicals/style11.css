@@ -1,0 +1,102 @@
+.c1
+{
+	background-color: blue;
+	border-radius: 10vh;
+	height: 10vh;
+	width: 10vh;
+	animation-name: c1;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	position: absolute;
+}
+.c2
+{
+	background-color: yellow;
+	border-radius: 10vh;
+	height: 10vh;
+	width: 10vh;
+	animation-name: c2;
+	animation-duration: 5s;
+	position: absolute;
+	animation-iteration-count: infinite;
+}
+.c3
+{
+	background-color: pink;
+	border-radius: 10vh;
+	height: 10vh;
+	width: 10vh;
+	animation-name: c3;
+	animation-duration: 5s;
+	position: absolute;
+	animation-iteration-count: infinite;
+}
+@keyframes c1
+{
+	0%
+	{
+		top: 50%;
+		left: 0%;
+	}
+	33%
+	{
+		top: 50%;
+		left: 90%;
+	}
+	66%
+	{
+		top: 0%;
+		left: 50%;
+	}
+	100%
+	{
+		top: 50%;
+		left: 0%;
+	}
+}
+@keyframes c2
+{
+	0%
+	{
+		top: 50%;
+		left: 0%;
+	}
+	33%
+	{
+		top: 50%;
+		left: 90%;
+	}
+	66%
+	{
+		top: 50%;
+		left: 50%;
+	}
+	100%
+	{
+		top: 50%;
+		left: 0%;
+	}
+}
+@keyframes c3
+{
+	0%
+	{
+		top: 50%;
+		left: 0%;
+	}
+	33%
+	{
+		top: 50%;
+		left: 90%;
+	}
+	66%
+	{
+		top: 90%;
+		left: 50%;
+	}
+	100%
+	{
+		top: 50%;
+		left: 0%;
+	}
+}

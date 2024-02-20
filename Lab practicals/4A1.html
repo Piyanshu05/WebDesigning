@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Form</title>
+        <body>
+            <fieldset>
+                
+                <form>
+                    <table>
+                        <caption><h1>Student Registration</h1></caption>
+                        <tr>
+                            <td>FullName</td>
+                            <td><input type="text" name="FullName"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" name="Email"></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile no.</td>
+                            <td><input type="number" name="Mobile" pattern="0-9"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><textarea name="Address" rows="5" cols="50"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Nationality</td>
+                            <td><input type="text" name="Nationality"></td>
+                        </tr>
+                        <tr>
+                            <td>Date-of-Birth</td>
+                            <td><input type="date" name="Date-of-Birth"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td><input type="radio" name="Male">Male
+                            <input type="radio" name="Female">Female</td>
+                        </tr>
+                         <tr>
+                            <td>Highest Degree</td>
+                            <td><d><select name="Select" value="degree">
+                                <option selected disabled>Select Degree</option>
+                                <option>B.tech</option>
+                                <option>M.Tech</option>
+                                <option>P.hD</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CPI</td>
+                            <td><input type="number" name="Cpi"></td>
+                        </tr>
+                        <tr>
+                            <td>University Name</td>
+                            <td><input type="text" name="University"></td>
+                        </tr>
+                        <tr>
+                            <td>Passing Year</td>
+                            <td><d><select name="Select" value="PY">
+                                <option selected disabled>Select passing year</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                            </td>
+                        </tr>
+                        <td align="right"><input type="submit" name="submit"></td>
+                        <td><input type="reset" name="cancel" value="Cancel"></td>
+                    </table>
+                </form>
+        </fieldset>
+        </body>
+    </head>
+</html>

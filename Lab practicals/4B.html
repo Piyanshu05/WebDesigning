@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employee registration</title>
+</head>
+<body>
+	<fieldset>
+	<form>
+	<table align="center" cellspacing="15">
+		<caption><h1>Employee Registration Form</h1></caption>
+		<tr><td colspan="4"><h1 align="center">Personal Information</h1></td></tr>
+		<tr>
+			<td>Employee ID:</td>
+			<td><input type="text" name="ID" pattern="[0-9]{10}" placeholder="Enter Employee ID"></td>
+			<td>Employee Name:</td>
+			<td><input type="text" name="Ename" placeholder="Enter Employee Name"></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="text" name="mail" placeholder="Enter Email"></td>
+			<td>Contact NO.:</td>
+			<td><input type="number" name="cn" pattern="[0-9]{10}" placeholder="Enter contact no."></td>
+		</tr>
+		<tr>
+            <td>Marital Status:</td>
+            <td><input type="radio" name="Married">Married
+            <input type="radio" name="Single">Single</td>
+        </tr>
+        <tr><td colspan="4"><h1 align="center">Education Qualification</h1></td></tr>
+        <tr>
+			<td>Education:</td>
+			<td><input type="text" name="edu" placeholder="Enter Education Details"></td>
+			<td>Experience:</td>
+			<td><input type="text" name="Exp" placeholder="Enter Experience Details"></td>
+		</tr>
+		<tr><td colspan="4"><h1 align="center">Job Details</h1></td></tr>
+		<tr>
+			<td>Designation:</td>
+			<td><input type="text" name="deg" placeholder="Enter Designation Details"></td>
+			<td>Job Location:</td>
+			<td><input type="text" name="JL" placeholder="Enter Job Location"></td>
+		</tr>
+		<tr>
+			<td>Salary:</td>
+			<td><input type="text" name="sal" placeholder="Enter Salary Details"></td>
+		</tr>
+		<tr>
+			<td colspan="4"><hr><h3 align="center"><input type="submit" name="a" value="Submit"></h3></td>
+		</tr>
+	</table>
+
+	</form>
+	</fieldset>
+</body>
+</html>

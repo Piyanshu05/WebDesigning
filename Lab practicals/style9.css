@@ -1,0 +1,43 @@
+
+.color
+{
+	background-color: blue;
+	height: 20vh;
+	width: 10%;
+	animation-name: col;
+	animation-duration: 2s;
+	position: absolute;
+}
+@keyframes col
+{
+	0%
+	{
+		top: 0px;
+		left: 0px;
+	}
+	20%
+	{
+		top: 700px;
+		left: 300px;
+	}
+	40%
+	{
+		top: 0px;
+		left: 600px;
+	}
+	60%
+	{
+		top: 700px;
+		left: 900px;
+	}
+	80%
+	{
+		top: 0px;
+		left: 1200px;
+	}
+	100%
+	{
+		top: 0px;
+		left: 1200px;
+	}
+}

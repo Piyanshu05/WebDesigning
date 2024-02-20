@@ -1,0 +1,50 @@
+.Header
+{
+	width: 70%;
+	height: 8vh;
+}
+.Content1
+{
+	width: 20%;
+	background-color: red;	
+	float: left;
+	height: 500px;
+	border: red;
+}
+.Content2
+{
+	width: 65%;
+	height: 500px;
+	border: 2px dotted red;
+	float: left;
+}
+.Sidebar
+{
+	border: green; 
+	height: 70px;
+}
+.Home
+{
+	border: green; 
+	height: 70px;
+}
+.Placement
+{
+	border: green; 
+	height: 70px;
+}
+.Recruitment
+{
+	border: green; 
+	height: 70px;
+}
+.Faculty
+{
+	border: green; 
+	height: 70px;
+}
+.News
+{
+	border: green; 
+	height: 70px;
+}

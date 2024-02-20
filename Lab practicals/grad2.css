@@ -1,0 +1,10 @@
+body{
+	height: 90vh;
+	width: 190vh;
+}
+.grad
+{
+	background-image:radial-gradient(ellipse farthest-side at 10% 90%,red,yellow,green);
+	height: 100%;
+	width: 100%;
+}
